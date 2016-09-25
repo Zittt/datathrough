@@ -6,7 +6,14 @@
 
     <groupId>com.zit.datathrough</groupId>
     <artifactId>datathrough</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>datathrough-common-dao</module>
+        <module>datathrough-common-utils</module>
+        <module>datathrough-web-home</module>
+        <module>datathrough-biz-service</module>
+    </modules>
 
 
 </project>
